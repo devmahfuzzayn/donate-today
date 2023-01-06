@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* Similar Primary Styles */
 
 .red-btn {
     background: #FF5959;
@@ -13,6 +14,29 @@
     color: #ffffff;
     cursor: pointer;
     font-size: 16px;
+}
+
+.donate-primary-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 30px 0 30px;
+    text-align: center;
+}
+
+.donate-primary-section .title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.donate-primary-section .description {
+    color: #909090;
+    line-height: 25px;
+    margin-bottom: 20px;
+    max-width: 574px;
 }
 
 /* Header Banner Section Styles */
@@ -53,29 +77,6 @@
 .donate-today {
     display: flex;
     justify-content: center;
-}
-
-.donate-today .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 30px 0 30px;
-    text-align: center;
-}
-
-.donate-today .dt-title {
-    color: #0E0E0E;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.donate-today .dt-description {
-    color: #909090;
-    line-height: 25px;
-    margin-bottom: 20px;
-    max-width: 574px;
 }
 
 .donate-today .amount-select-container {
@@ -124,4 +125,51 @@
 
 .donate-today form input[type="text"]::placeholder {
     color: #ccc;
+}
+
+/* Our Donate Plan Styles */
+.our-donate-plan {
+    display: flex;
+    justify-content: center;
+}
+
+.our-donate-plan .odp-items {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.our-donate-plan .odp-items .item {
+    background: #ccc;
+    border-radius: 4px;
+    padding: 60px 30px 30px 20px;
+    text-align: left;
+}
+
+.our-donate-plan .odp-items .item img {
+    width: 40px;
+}
+
+.our-donate-plan .odp-items .item .title {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.our-donate-plan .odp-items .item .description {
+    font-size: 15px;
+    color: rgb(93, 93, 93);
+    line-height: 20px;
+    width: 250px;
+}
+
+.our-donate-plan .odp-items .item1 {
+    background: rgb(238, 246, 247);
+}
+
+.our-donate-plan .odp-items .item2 {
+    background: rgb(254, 235, 238);
+}
+
+.our-donate-plan .odp-items .item3 {
+    background: rgb(255, 247, 218);
 }
