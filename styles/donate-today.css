@@ -16,7 +16,7 @@
     font-size: 16px;
 }
 
-.donate-primary-section .container {
+.primary-section .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,14 +25,14 @@
     text-align: center;
 }
 
-.donate-primary-section .title {
+.primary-section .title {
     color: #0E0E0E;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.donate-primary-section .description {
+.primary-section .description {
     color: #909090;
     line-height: 25px;
     margin-bottom: 20px;
@@ -152,7 +152,7 @@
 
 .our-donate-plan .odp-items .item .title {
     font-size: 22px;
-    margin: 20px 0;
+    margin: 18px 0;
 }
 
 .our-donate-plan .odp-items .item .description {
@@ -172,4 +172,131 @@
 
 .our-donate-plan .odp-items .item3 {
     background: rgb(255, 247, 218);
+}
+
+/* More Info Styles */
+.more-info {
+    display: flex;
+    justify-content: center;
+}
+
+.more-info .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    margin: 120px 30px 0 30px;
+}
+
+.more-info .container > div {
+    display: flex;
+    align-items: center;
+}
+
+.more-info .container .content {
+    max-width: 400px;
+}
+
+.more-info .container .content1 {
+    margin-right: 80px;
+}
+
+.more-info .container .content2 {
+    margin-left: 80px;
+}
+
+.more-info .container .content h3 {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.more-info .container .content p {
+    color: #909090;
+    line-height: 25px;
+    margin-bottom: 15px;
+    max-width: 574px;
+}
+
+.more-info .container .content button {
+    margin-top: 10px;
+}
+
+.more-info .container .picture img {
+    border-radius: 4px;
+    height: 400px;
+    width: 380px;
+    object-fit: cover;
+}
+
+/* Get My Updates Styles */
+.get-my-updates {
+    display: flex;
+    justify-content: center;
+}
+
+.get-my-updates .container {
+    margin-bottom: 90px;
+}
+
+.get-my-updates .gmu-form {
+    display: flex;
+    margin: 20px 0;
+    padding: 60px 150px;
+    background: rgb(255, 241, 211);
+}
+
+.get-my-updates .gmu-form input[type="email"] {
+    width: 190px;
+    background: #dcdcdc;
+    border: none;
+    outline: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 12px 18px;
+    color: #656565;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.get-my-updates .gmu-form input[type="email"]::placeholder {
+    color: #9a9a9a;
+}
+
+.get-my-updates .gmu-form input[type="submit"] {
+    background: #FF5959;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    padding: 12px 36px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Footer Styles */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: rgb(5, 5, 23);
+}
+
+footer .container {
+    text-align: center;
+}
+
+footer h3 {
+    font-family: 'Galada', cursive;
+    font-size: 28px;
+    color: rgb(247, 96, 96);
+    margin: 40px 0 15px 0;
+}
+
+footer p {
+    color: rgb(184, 183, 183);
+    font-size: 11px;
+    margin-bottom: 40px;
 }
